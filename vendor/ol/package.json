@@ -1,0 +1,14 @@
+{
+  "name": "ol",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    "./Map": "./Map.js",
+    "./View": "./View.js",
+    "./layer/Tile": "./layer/Tile.js",
+    "./source/OSM": "./source/OSM.js",
+    "./proj": "./proj.js",
+    "./control": "./control.js",
+    "./ol.css": "./ol.css"
+  }
+}
