@@ -13,9 +13,9 @@ export default function Home() {
           リアルタイム地図ビューア
         </h1>
         <p className="text-lg text-slate-300">
-          OpenLayers を CDN
-          から読み込み、東京周辺のベースマップを表示するサンプルアプリです。
-          React コンポーネントとして再利用できるようにカプセル化しています。
+          OpenLayers を npm パッケージから読み込み、東京周辺のベースマップを
+          表示するサンプルアプリです。React コンポーネントとして再利用できる
+          ようにカプセル化しています。
         </p>
       </header>
       <section className="grid gap-10 lg:grid-cols-[2fr_1fr]">
@@ -25,10 +25,7 @@ export default function Home() {
         <aside className="space-y-6 rounded-2xl border border-white/10 bg-slate-900/70 p-6 shadow-xl">
           <h2 className="text-2xl font-semibold">特徴</h2>
           <ul className="list-inside list-disc space-y-2 text-slate-300">
-            <li>
-              CDN から OpenLayers を読み込み、SSR
-              と競合しないようにクライアントで初期化。
-            </li>
+            <li>npm で管理された OpenLayers をクライアントのみで初期化。</li>
             <li>
               React のライフサイクルに合わせた初期化とクリーンアップを実装。
             </li>
